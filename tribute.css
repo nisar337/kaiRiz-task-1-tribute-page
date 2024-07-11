@@ -1,0 +1,90 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+* {
+  /* margin: 0;
+  padding: 0;
+  box-sizing: border-box; */
+}
+body {
+  font-family: "Roboto", sans-serif;
+  scroll-behavior: smooth;
+  background-color: #e5e5e5;
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+    height: 73px;
+    /* background-color: #cabfbff1; */
+    text-align: center;
+    margin-bottom: 20px;
+}
+.header h1 {
+  font-size: 2.5rem;
+}
+.main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 15px;
+  /* background-color: #101010eb; */
+  border-radius: 10px;
+}
+.image img {
+  border-radius: 50px;
+  margin: 10px;
+  width: 96%;
+}
+.para {
+  color: rgb(8, 8, 8);
+}
+.para h2{
+    font-size: 2rem;
+}
+.para .qt{
+
+}
+.image h3 {
+  font-weight: 500;
+  font-size: 1rem;
+  margin-left: 2rem;
+}
+
+.copy-writing {
+  margin: 20px 20px;
+}
+
+.copy-writing ul {
+    list-style-type: disclosure-closed;
+    line-break: auto;
+    margin: 25px 30px 0 29px;
+    line-height: 2.5rem;
+}
+.footer{
+    width: 100%;
+    height: 50px;
+    background-color: #d3d0d0;
+    display: flex;
+    justify-content: space-evenly;
+}
+.footer a{
+
+  background-image: linear-gradient(#0dccea, #0d70ea);
+  
+  border-radius: 4px;
+  box-shadow: rgba(0, 0, 0, .3) 0 5px 15px;
+  box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+  font-family: "Roboto",sans-serif;
+  font-size: 0.9em;
+  margin: 5px;
+  padding: 10px 15px;
+  text-align: center;
+  text-decoration: none;
+  
+  touch-action: manipulation;
+}
+.footer .CopyRight{
+    font-family: 500;
+}
